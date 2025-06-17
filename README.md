@@ -22,8 +22,9 @@ This is a simple Python script that uses the [Ollama](https://ollama.com) Local 
   ollama run llama3
 
 
-# pdf-rag.py file Contents
-##🧠 PDF-RAG with Ollama and LangChain
+# pdf-rag.py file 
+##  Contents
+## 🧠 PDF-RAG with Ollama and LangChain
 This project builds an AI-powered assistant capable of answering questions from a PDF document using a Retrieval-Augmented Generation (RAG) pipeline. It combines the power of LangChain, Ollama, and local language models to create a smart, context-aware system that reads documents and responds intelligently to user queries.
 
 ## 🔍 What It Does
