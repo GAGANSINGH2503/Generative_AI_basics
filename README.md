@@ -26,7 +26,7 @@ This is a simple Python script that uses the [Ollama](https://ollama.com) Local 
 ##🧠 PDF-RAG with Ollama and LangChain
 This project builds an AI-powered assistant capable of answering questions from a PDF document using a Retrieval-Augmented Generation (RAG) pipeline. It combines the power of LangChain, Ollama, and local language models to create a smart, context-aware system that reads documents and responds intelligently to user queries.
 
-##🔍 What It Does
+## 🔍 What It Does
 📄 Loads a PDF file from your local system.
 
 ✂️ Splits the content into manageable chunks using a recursive text splitter, ensuring overlapping context is preserved.
@@ -45,7 +45,7 @@ Retrieves matching chunks from the PDF.
 
 💡 Generates answers based solely on the content of the document, ensuring relevance and grounded responses.
 
-## 💼 Use Case
+##  💼 Use Case
 Ideal for:
 
 Summarizing research papers
@@ -56,7 +56,7 @@ Extracting key business or legal insights
 
 Building document-based virtual assistants
 
-##🧰 Tools & Technologies
+## 🧰 Tools & Technologies
 LangChain – for building the RAG pipeline
 
 Ollama – to run local LLMs and embedding models
@@ -67,7 +67,7 @@ llama3 – as the local chat model for intelligent answer generation
 
 Chroma – for storing and querying vectorized documents
 
-##⚙️ How It Works (Flow)
+## ⚙️ How It Works (Flow)
 Ingestion: PDF is loaded and converted into text.
 
 Chunking: The text is split into overlapping segments to preserve context.
@@ -80,7 +80,7 @@ Querying: User question is broken into sub-questions; the most relevant chunks a
 
 Answering: A local LLM generates a response using the retrieved content only.
 
-##📝 Output
+## 📝 Output
 When you run the project, it prints:
 
 A preview of the document
